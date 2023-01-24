@@ -16,6 +16,7 @@ const Projects = lazy(() => import('./pages/Projects'));
 const Resume = lazy(() => import('./pages/Resume'));
 // const Stats = lazy(() => import('./pages/Stats'));
 const Research = lazy(() => import('./pages/Research'));
+const Resources = lazy(() => import('./pages/Resources'));
 const Blogs = lazy(() => import('./pages/Blogs'));
 const Blog1 = lazy(() => import('./pages/Blog1'));
 const Blog2 = lazy(() => import('./pages/Blog2'));
@@ -38,6 +39,7 @@ const App = () => (
         <Route path="/resume" component={Resume} />
         <Route path="/research" component={Research} />
         <Route path="/blogs" component={Blogs} />
+        <Route path="/resources" component={Resources} />
 
         <Route path="/blog1" component={Blog1} />
         <Route path="/blog2" component={Blog2} />

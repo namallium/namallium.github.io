@@ -29,6 +29,10 @@ const routes = [
     label: 'Contact',
     path: '/contact',
   },
+  // {
+  //   label: 'Resources',
+  //   path: '/resources',
+  // },
 ];
 
 export default routes;

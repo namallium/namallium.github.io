@@ -8,13 +8,13 @@
 	}
 
 	.link-container h4 {
-		text-decoration:none;
+		text-decoration: none;
 		border-bottom: none;
 		display: inline-flex;
 
 		a {
-				padding: 0 .5em;
-				margin: 0;
+			padding: 0 .5em;
+			margin: 0;
 		}
 	}
 
@@ -25,13 +25,16 @@
 			margin-bottom: 2em;
 		}
 	}
+
 	.experience {
 		.title {
 			text-align: center;
 		}
+
 		.job {
 			margin: 1em;
-			p{
+
+			p {
 				margin: 0;
 			}
 		}
@@ -42,16 +45,18 @@
 			li {
 				margin: 0;
 				padding: 0;
-					font-size: .9em;
+				font-size: .9em;
 			}
 		}
 	}
 
 	.courses {
 		padding-top: 1.6em;
+
 		.title {
 			text-align: center;
 		}
+
 		.course-list {
 			text-align: center;
 
@@ -63,15 +68,19 @@
 
 	.skills {
 		margin-top: 2em;
+
 		.title {
 			text-align: center;
+
 			p {
 				font-size: 0.9em;
 			}
 		}
 	}
+
 	.references {
 		margin: 2em 0;
+
 		.title {
 			text-align: center;
 		}
@@ -104,19 +113,20 @@
 .courses .course-number {
 	display: inline;
 }
+
 .courses .course-name {
 	display: inline;
 	font-family: "Raleway", Helvetica, sans-serif;
 	font-size: 0.7em;
-  font-weight: 400;
-  letter-spacing: 0.25em;
-  line-height: 2.5;
-  margin-top: -1em;
-  text-transform: uppercase;
+	font-weight: 400;
+	letter-spacing: 0.25em;
+	line-height: 2.5;
+	margin-top: -1em;
+	text-transform: uppercase;
 }
 
-.courses ul li{
-  display: inline;
+.courses ul li {
+	display: inline;
 }
 
 .course-dot {
@@ -128,7 +138,8 @@
 	.course-dot {
 		display: none;
 	}
-	.course-container a{
+
+	.course-container a {
 		display: block;
 	}
 }

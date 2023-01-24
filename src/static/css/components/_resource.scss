@@ -1,0 +1,16 @@
+resource-row-container {
+   display: flex !important;
+}
+
+resource {
+   display: block;
+
+   recsubtitle {
+      color: aquamarine;
+      font-size: 8px;
+   }
+
+   rectitle {
+      font-size: 20 px;
+   }
+}
