@@ -37,20 +37,6 @@ const data = [
     time: 'Time: 2.5 Years',
     tools: 'Tools: Invision, Sketch, Photoshop, Adobe Illustrator',
   },
-  // {
-  //   title: 'Starbucks',
-  //   subtitle: 'Application Redesign',
-  //   link: '/starbucks',
-  //   image: '/images/projects/starbucks.png',
-  //   date: '2018-12-20',
-  //   desc: 'While redesigning the Starbucks mobile app, the main focus was improving the
-  //          appearance, user experience, user flow, and making information more discoverable.',
-  //   team: 'Team: Namrata Kulkarni and 2 Others',
-  //   role: 'Role: UX designer',
-  //   client: 'Client: Project',
-  //   time: 'Time: 10 Weeks',
-  //   tools: 'Tools: Photoshop, Illustrator, Figma',
-  // },
   {
     title: 'Design for social good',
     subtitle: 'Sustainable lifestyle App Design',
@@ -77,6 +63,20 @@ const data = [
     role: 'Role: UX designer & Researcher',
     tools: 'Tools: Tableau',
   },
+  // {
+  //   title: 'Starbucks',
+  //   subtitle: 'Application Redesign',
+  //   link: '/starbucks',
+  //   image: '/images/projects/starbucks.png',
+  //   date: '2018-12-20',
+  //   desc: 'While redesigning the Starbucks mobile app, the main focus was improving the
+  //          appearance, user experience, user flow, and making information more discoverable.',
+  //   team: 'Team: Namrata Kulkarni and 2 Others',
+  //   role: 'Role: UX designer',
+  //   client: 'Client: Project',
+  //   time: 'Time: 10 Weeks',
+  //   tools: 'Tools: Photoshop, Illustrator, Figma',
+  // },
 ];
 
 export default data;
