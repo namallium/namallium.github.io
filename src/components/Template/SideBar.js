@@ -9,7 +9,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me1.png`} alt="" />
+        <img src={`${PUBLIC_URL}/images/me3.jpg`} alt="" />
       </Link>
       <header>
         <h2>Namrata Kulkarni</h2>
