@@ -8,7 +8,8 @@ const { PUBLIC_URL } = process.env;
 // Every route - we lazy load so that each page can be chunked
 // NOTE that some of these chunks are very small. We should optimize
 // which pages are lazy loaded in the future.
-const About = lazy(() => import('./pages/About'));
+
+// const About = lazy(() => import('./pages/About'));
 const Contact = lazy(() => import('./pages/Contact'));
 const Index = lazy(() => import('./pages/Index'));
 const NotFound = lazy(() => import('./pages/NotFound'));
@@ -22,6 +23,7 @@ const Blog1 = lazy(() => import('./pages/Blog1'));
 const Blog2 = lazy(() => import('./pages/Blog2'));
 const Lagna = lazy(() => import('./pages/Lagna'));
 const Netchex = lazy(() => import('./pages/Netchex'));
+const CMU = lazy(() => import('./pages/CMU'));
 const Starbucks = lazy(() => import('./pages/Starbucks'));
 const SwitchApp = lazy(() => import('./pages/Switch'));
 const Walmart = lazy(() => import('./pages/Walmart'));
@@ -33,7 +35,8 @@ const App = () => (
       <Switch>
         <Route exact path="/" component={Index} />
 
-        <Route path="/about" component={About} />
+        {/* <Route path="/about" component={About} /> */}
+
         <Route path="/projects" component={Projects} />
         <Route path="/contact" component={Contact} />
         <Route path="/resume" component={Resume} />
@@ -44,6 +47,7 @@ const App = () => (
         <Route path="/blog1" component={Blog1} />
         <Route path="/blog2" component={Blog2} />
 
+        <Route path="/cmu" component={CMU} />
         <Route path="/lagna" component={Lagna} />
         <Route path="/netchex" component={Netchex} />
         <Route path="/starbucks" component={Starbucks} />

@@ -21,14 +21,10 @@ const routes = [
     label: 'Resume',
     path: '/resume',
   },
-  {
-    label: 'About',
-    path: '/about',
-  },
-  {
-    label: 'Contact',
-    path: '/contact',
-  },
+  // {
+  //  label: 'Contact',
+  //  path: '/contact',
+  // },
   // {
   //   label: 'Resources',
   //   path: '/resources',

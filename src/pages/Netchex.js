@@ -29,7 +29,7 @@ const Netchex = () => (
             <br />
             Time: 2.5 Years
             <br />
-            Tools: Invision, Sketch, Photoshop, Adobe Illustrator
+            Tools: React, Javascript, HTML, Invision, Sketch, Photoshop, Adobe Illustrator
             <br />
           </p>
         </div>

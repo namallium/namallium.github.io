@@ -9,7 +9,7 @@ const SideBar = () => (
   <section id="sidebar">
     <section id="intro">
       <Link to="/" className="logo">
-        <img src={`${PUBLIC_URL}/images/me3.jpg`} alt="" />
+        <img src={`${PUBLIC_URL}/images/1-1.png`} alt="" />
       </Link>
       <header>
         <h2>Namrata Kulkarni</h2>
@@ -20,9 +20,9 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Namrata.
-        I am a <a href="https://www.psu.edu/">Penn State</a> 2022 graduate majoring in Human-Centered Design.
-        I am a UI/UX designer who is excited about creating meaningful experiences,
-        solving complex problems, and delivering user-centered designs.
+        I’m a front-end developer specializing in building and designing exceptional digital
+        experiences.
+        Currently, I’m focused on building accessible and human-centered products at CMU.
       </p>
       <ul className="actions">
         <li>

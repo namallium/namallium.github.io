@@ -1,7 +1,29 @@
 const positions = [
   {
+    company: 'CMU',
+    position: 'Web Developer',
+    link: '',
+    daterange: 'April 2023 - Present',
+    points: [
+      'Working on a cross-functional Agile team to build web applications to support the CMU’s online presence.',
+      'Collaborating with the marketing department to support the university’s content management systems.',
+      'Building a (React and PHP) self-service application that automated rote tasks that would reduce the team’s workload by eliminating 30 % of tickets annually.',
+    ],
+  },
+  {
+    company: 'Contract',
+    position: 'UI/UX Designer',
+    link: '',
+    daterange: 'Oct 2022 - April 2023',
+    points: [
+      'Consulted with users to understand their goals, explain user research results to internal and external stakeholders.',
+      'Developing personas and usage scenarios and conducting competitive analysis.',
+      'Conducting usability testing, creating wireframes, storyboards, sitemaps, information architecture, prototypes.',
+    ],
+  },
+  {
     company: 'Bizsense Solutions Pvt. Ltd.',
-    position: 'UI/UX Developer',
+    position: 'Web Developer',
     link: '',
     daterange: 'March 2017 - May 2019',
     points: [
