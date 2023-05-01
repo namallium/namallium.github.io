@@ -22,7 +22,6 @@ const SideBar = () => (
       <p>Hi, I&apos;m Namrata.
         I’m a front-end developer specializing in building and designing exceptional digital
         experiences.
-        Currently, I’m focused on building accessible and human-centered products at CMU.
       </p>
       <ul className="actions">
         <li>
