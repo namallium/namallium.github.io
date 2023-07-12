@@ -1,9 +1,16 @@
 const positions = [
   {
-    company: 'CMU',
+    company: 'University of Pittsburgh',
     position: 'Web Developer',
     link: '',
-    daterange: 'April 2023 - Present',
+    daterange: 'July 2023 - Present',
+    points: [],
+  },
+  {
+    company: 'Carnegie Mellon University',
+    position: 'Web Developer',
+    link: '',
+    daterange: 'April 2023 - July 2023',
     points: [],
   },
   {
