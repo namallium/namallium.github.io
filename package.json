@@ -1,11 +1,11 @@
 {
-  "name": "namrata-kulkarni",
+  "name": "namallium",
   "version": "4.0.0",
-  "homepage": "https://namrata-kulkarni.github.io",
+  "homepage": "https://namallium.github.io",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/namrata-kulkarni.git"
+    "url": "https://github.com/namallium.git"
   },
   "engines": {
     "node": ">=14.x"
